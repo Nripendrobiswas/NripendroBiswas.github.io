@@ -239,36 +239,48 @@ main {
    Add class="news--scroll" to the <ul> once the list gets long — it caps
    the height and lets the list scroll instead of pushing the page down.
    -------------------------------------------------------------------------- */
-.news { list-style: none; margin: 0; padding: 0; }
+/* --------------------------------------------------------------------------
+   7. News list — bulleted & scrollable box
+   -------------------------------------------------------------------------- */
+.news-scroll-box {
+  max-height: 180px;         /* Forces the box to cap height so scrolling triggers */
+  overflow-y: auto;          /* Enables vertical scrollbar when content exceeds max-height */
+  padding-right: 0.75rem;
+  margin-top: 0.5rem;
+}
 
-.news > li {
-  display: grid;
-  grid-template-columns: 7.5rem 1fr;
-  gap: 1rem;
-  padding: 0.6rem 0;
-  border-top: 1px solid var(--rule);
+.news-bullet-list {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--font-body);
+}
+
+.news-bullet-list li {
   font-size: 0.92rem;
-}
-.news > li:first-child { border-top: 0; }
-
-.news time {
-  font-family: var(--font-mono);
-  font-size: 0.78rem;
-  color: var(--ink-muted);
-  padding-top: 0.2rem;
-  white-space: nowrap;
+  line-height: 1.55;
+  margin-bottom: 0.65rem;
 }
 
-/* Collapse to a stacked layout on narrow screens. */
-@media (max-width: 34rem) {
-  .news > li { grid-template-columns: 1fr; gap: 0.15rem; }
+.news-bullet-list li:last-child {
+  margin-bottom: 0;
 }
 
-/* Caps the visible height and lets the list scroll. */
-.news--scroll {
-  max-height: 26rem;
-  overflow-y: auto;
-  padding-right: 0.5rem;
+/* Custom subtle scrollbar styling */
+.news-scroll-box::-webkit-scrollbar {
+  width: 6px;
+}
+.news-scroll-box::-webkit-scrollbar-track {
+  background: var(--paper-sunk);
+  border-radius: var(--radius);
+}
+.news-scroll-box::-webkit-scrollbar-thumb {
+  background: #c1c5cc;
+  border-radius: var(--radius);
+}
+.news-scroll-box::-webkit-scrollbar-thumb:hover {
+  background: var(--ink-muted);
 }
 
 /* --------------------------------------------------------------------------
