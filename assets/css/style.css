@@ -452,6 +452,41 @@ main {
   white-space: nowrap;
 }
 
+/* SECTION HEADER STYLE */
+/* --------------------------------------------------------------------------
+   Custom Individual Section Header Styles
+   -------------------------------------------------------------------------- */
+.section-title {
+  padding: 0.4rem 0.75rem;
+  border-radius: var(--radius);
+  display: inline-block; /* Keeps the background wrapping snugly around the text */
+}
+
+/* 1. News Header — Dark Red Background */
+.header-news {
+  background-color: #8b0000; /* Dark Red */
+  color: #ffffff;
+}
+
+/* 2. Selected Publications — Dark Blue Background */
+.header-pub {
+  background-color: #1d3557; /* Dark Blue */
+  color: #ffffff;
+}
+
+/* 3. Research Experience — Slate / Accent Teal Background */
+.header-exp {
+  background-color: var(--accent); /* Deep Teal */
+  color: #ffffff;
+}
+
+/* 4. Technical Skills — Sunk Paper Background with Dark Text */
+.header-skills {
+  background-color: var(--paper-sunk);
+  color: var(--ink);
+  border: 1px solid var(--rule);
+}
+
 /* --------------------------------------------------------------------------
    13. Footer
    -------------------------------------------------------------------------- */
