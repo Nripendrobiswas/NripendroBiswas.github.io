@@ -489,8 +489,8 @@ main {
 
 /* 4. Technical Skills — Sunk Paper Background with Dark Text */
 .header-skills {
-  background-color: var(--paper-sunk);
-  color: var(--ink);
+  background-color: var(--Dark-red);
+  color: #ffffff; /*var(--ink) */
   border: 1px solid var(--rule);
 }
 
