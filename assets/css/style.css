@@ -459,6 +459,57 @@ main {
   text-align: center;
 }
 
+
+
+
+
+/*UPDATED BY NRIPENDRO */
+/* NEW SECTION */
+/* Container styling */
+.news-section {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  max-width: 800px;
+  margin: 20px auto;
+  color: #111;
+}
+
+/* Header & Divider */
+.news-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.news-divider {
+  border: 0;
+  border-top: 1px solid #e5e7eb;
+  margin-bottom: 16px;
+}
+
+/* Scrollable area */
+.news-scroll-box {
+  max-height: 220px; /* Adjust height as needed */
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+/* List styling */
+.news-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.news-list li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+
 /* --------------------------------------------------------------------------
    14. Print — makes Ctrl+P produce a usable CV
    -------------------------------------------------------------------------- */
