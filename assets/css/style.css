@@ -9,13 +9,13 @@
    -------------------------------------------------------------------------- */
 :root {
   /* Palette */
-  --paper:       #fbfbf9;   /* page background */
-  --paper-sunk:  #f2f3f0;   /* cards, code, table stripes */
+  --paper:       #ffffff;   /* page background */
+  --paper-sunk:  #f5f6f7;   /* cards, code, table stripes */
   --ink:         #14161a;   /* body text */
   --ink-muted:   #5c6470;   /* dates, captions, secondary text */
-  --rule:        #e2e3df;   /* hairlines and borders */
+  --rule:        #e4e6e8;   /* hairlines and borders */
   --accent:      #1f5f5b;   /* links, headings accent — deep teal */
-  --accent-soft: #e6efee;   /* accent background wash */
+  --accent-soft: #e8f1f0;   /* accent background wash */
 
   /* Type */
   --font-display: "Spectral", Georgia, "Times New Roman", serif;
@@ -26,19 +26,6 @@
   --measure: 46rem;   /* max text column width */
   --gap:     1.5rem;
   --radius:  4px;
-}
-
-/* Dark mode follows the OS setting. Delete this block to force light. */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --paper:       #111316;
-    --paper-sunk:  #1a1d21;
-    --ink:         #e7e8e5;
-    --ink-muted:   #9aa2ab;
-    --rule:        #2a2e33;
-    --accent:      #6fbdb4;
-    --accent-soft: #17302e;
-  }
 }
 
 /* --------------------------------------------------------------------------
