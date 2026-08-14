@@ -17,7 +17,7 @@
   --accent:       #1f5f5b;   /* links, headings accent — deep teal */
   --accent-soft:  #e8f1f0;   /* accent background wash */
   --Dark-red:     #420505;
-  --Dark-violet:  #301461;
+  --Col-violet:   #301461;
 
   /* Type */
   --font-display: "Spectral", Georgia, "Times New Roman", serif;
@@ -474,7 +474,7 @@ main {
 
 /* 2. Selected Publications — Dark Blue Background */
 .header-pub {
-  background-color: var(--Dark-violet);
+  background-color: var(--Col-violet);
   color: #ffffff;
   border: 1px solid var(--rule);
 }
