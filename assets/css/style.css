@@ -23,7 +23,7 @@
   --font-mono:    "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
 
   /* Scale */
-  --measure: 46rem;   /* max text column width */
+  --measure: 64rem;   /* max text column width */
   --gap:     1.5rem;
   --radius:  4px;
 }
