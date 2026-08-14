@@ -18,6 +18,8 @@
   --accent-soft:  #e8f1f0;   /* accent background wash */
   --Dark-red:     #420505;
   --Col-violet:   #301461;
+  --Cream-Violet: #904C88;
+  --Skill-Violet: #A95B8C;
 
   /* Type */
   --font-display: "Spectral", Georgia, "Times New Roman", serif;
@@ -482,14 +484,14 @@ main {
 
 /* 3. Research Experience — Slate / Accent Teal Background */
 .header-exp {
-  background-color: var(--Dark-red); /* Deep Teal ---> --accent*/
+  background-color: var(--Cream-Violet); /* Deep Teal ---> --accent*/
   color: #ffffff;
   border: 1px solid var(--rule);
 }
 
 /* 4. Technical Skills — Sunk Paper Background with Dark Text */
 .header-skills {
-  background-color: var(--Dark-red);
+  background-color: var(--Skill-Violet);
   color: #ffffff; /*var(--ink) */
   border: 1px solid var(--rule);
 }
