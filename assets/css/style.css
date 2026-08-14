@@ -457,9 +457,11 @@ main {
    Custom Individual Section Header Styles
    -------------------------------------------------------------------------- */
 .section-title {
-  padding: 0.4rem 0.75rem;
+  display: block;             /* Ensures it takes up the full line width */
+  width: 100%;               /* Spans 100% of the main content column */
+  padding: 0.5rem 0.85rem;   /* Spacing around the text inside the banner */
   border-radius: var(--radius);
-  display: inline-block; /* Keeps the background wrapping snugly around the text */
+  box-sizing: border-box;
 }
 
 /* 1. News Header — Dark Red Background */
