@@ -16,6 +16,8 @@
   --rule:         #e4e6e8;   /* hairlines and borders */
   --accent:       #1f5f5b;   /* links, headings accent — deep teal */
   --accent-soft:  #e8f1f0;   /* accent background wash */
+  --Dark-red:     #420505;
+  --Dard-violet:  #42192E;
 
   /* Type */
   --font-display: "Spectral", Georgia, "Times New Roman", serif;
@@ -465,21 +467,21 @@ main {
 
 /* 1. News Header — Dark Red Background */
 .header-news {
-  background-color: var(--ink);
+  background-color: var(--Dark-red);
   color: #ffffff;
   border: 1px solid var(--rule);
 }
 
 /* 2. Selected Publications — Dark Blue Background */
 .header-pub {
-  background-color: var(--ink);
+  background-color: var(--Dark-violet);
   color: #ffffff;
   border: 1px solid var(--rule);
 }
 
 /* 3. Research Experience — Slate / Accent Teal Background */
 .header-exp {
-  background-color: var(--ink); /* Deep Teal ---> --accent*/
+  background-color: var(--Dark-red); /* Deep Teal ---> --accent*/
   color: #ffffff;
   border: 1px solid var(--rule);
 }
