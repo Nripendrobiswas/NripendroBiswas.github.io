@@ -465,22 +465,22 @@ main {
 
 /* 1. News Header — Dark Red Background */
 .header-news {
-  background-color: var(--paper-sunk);
-  color: #8B0000;
+  background-color: var(#8B0000);
+  color: #ffffff;
   border: 1px solid var(--rule);
 }
 
 /* 2. Selected Publications — Dark Blue Background */
 .header-pub {
-  background-color: var(--paper-sunk);
-  color: #8B0000;
+  background-color: var(#8B0000);
+  color: #ffffff;
   border: 1px solid var(--rule);
 }
 
 /* 3. Research Experience — Slate / Accent Teal Background */
 .header-exp {
-  background-color: var(--paper-sunk); /* Deep Teal ---> --accent*/
-  color: #8B0000;
+  background-color: var(#8B0000); /* Deep Teal ---> --accent*/
+  color: #ffffff;
   border: 1px solid var(--rule);
 }
 
