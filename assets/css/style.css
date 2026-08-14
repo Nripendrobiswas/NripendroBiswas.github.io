@@ -474,7 +474,7 @@ main {
 .header-pub {
   background-color: var(--paper-sunk);
   color: var(--ink);
-  border: 1px solid var(--rule);
+  /* border: 1px solid var(--rule); */
 }
 
 /* 3. Research Experience — Slate / Accent Teal Background */
