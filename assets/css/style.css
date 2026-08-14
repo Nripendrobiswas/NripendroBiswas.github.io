@@ -469,46 +469,48 @@ main {
 /* --------------------------------------------------------------------------
    7. News list — bulleted & scrollable (Site-Aligned)
    -------------------------------------------------------------------------- */
-.news-scroll-container {
-  max-height: 220px !important; /* Fixed height is required for overflow scroll */
-  height: 220px;               /* Fallback height */
-  overflow-y: scroll !important; /* Forces vertical scrollbar when needed */
-  padding-right: 0.75rem;
-  margin-top: 0.75rem;
+/* Container styling */
+.news-section {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  max-width: 800px;
+  margin: 20px auto;
+  color: #111;
 }
 
-.news-bullet-list {
+/* Header & Divider */
+.news-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.news-divider {
+  border: 0;
+  border-top: 1px solid #e5e7eb;
+  margin-bottom: 16px;
+}
+
+/* Scrollable area */
+.news-scroll-box {
+  max-height: 220px; /* Adjust height as needed */
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+/* List styling */
+.news-list {
   list-style-type: disc;
-  padding-left: 1.25rem;
+  padding-left: 20px;
   margin: 0;
-  color: var(--ink);
-  font-family: var(--font-body); /* Uses Inter to match the rest of your site */
 }
 
-.news-bullet-list li {
-  font-size: 0.92rem;
-  line-height: 1.6;
-  margin-bottom: 0.6rem;
-}
-
-.news-bullet-list li:last-child {
-  margin-bottom: 0;
-}
-
-/* Optional: Clean, minimal scrollbar styling */
-.news-scroll-container::-webkit-scrollbar {
-  width: 5px;
-}
-.news-scroll-container::-webkit-scrollbar-track {
-  background: var(--paper-sunk);
-  border-radius: var(--radius);
-}
-.news-scroll-container::-webkit-scrollbar-thumb {
-  background: #ccc;
-  border-radius: var(--radius);
-}
-.news-scroll-container::-webkit-scrollbar-thumb:hover {
-  background: var(--ink-muted);
+.news-list li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-size: 0.95rem;
 }
 
 
