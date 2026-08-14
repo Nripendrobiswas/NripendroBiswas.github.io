@@ -457,17 +457,17 @@ main {
    Custom Individual Section Header Styles
    -------------------------------------------------------------------------- */
 .section-title {
-  display: block;             /* Ensures it takes up the full line width */
-  width: 100%;               /* Spans 100% of the main content column */
-  padding: 0.5rem 0.85rem;   /* Spacing around the text inside the banner */
-  border-radius: var(--radius);
-  box-sizing: border-box;
+  border-left: 2px solid var(--accent);
+  padding: 0.75rem 1rem;
+  font-size: 0.88rem;
+  border-radius: 0 var(--radius) var(--radius) 0;
 }
 
 /* 1. News Header — Dark Red Background */
 .header-news {
-  background-color: #8b0000; /* Dark Red */
-  color: #ffffff;
+  background-color: var(--paper-sunk);
+  color: var(--ink);
+  border: 1px solid var(--rule);
 }
 
 /* 2. Selected Publications — Dark Blue Background */
