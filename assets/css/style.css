@@ -351,8 +351,8 @@ main {
 
 /* --------------------------------------------------------------------------
    10. Skills — definition list
-   -------------------------------------------------------------------------- */
-/* .skills { margin: 0; }
+   /* -------------------------------------------------------------------------- */
+.skills { margin: 0; }
 
 .skills dt {
   font-weight: 600;
@@ -366,24 +366,6 @@ main {
   color: var(--ink-muted);
 } */
 
-.skills { margin: 0; }
-
-.skills dt {
-  display: inline-block;
-  font-weight: 600;
-  font-size: 0.9rem;
-  margin-top: 0.9rem;
-  padding: 4px 12px;
-  border-radius: 8px;
-  background-color: #e0e7ff;   /* pastel lavender-blue — swap for any pastel hex */
-  color: #1e293b;
-}
-
-.skills dd {
-  margin: 0.15rem 0 0;
-  font-size: 0.9rem;
-  color: var(--ink-muted);
-}
 
 /* --------------------------------------------------------------------------
    11. Stat strip
