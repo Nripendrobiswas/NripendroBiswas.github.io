@@ -472,8 +472,9 @@ main {
 
 /* 2. Selected Publications — Dark Blue Background */
 .header-pub {
-  background-color: #1d3557; /* Dark Blue */
-  color: #ffffff;
+  background-color: var(--paper-sunk);
+  color: var(--ink);
+  border: 1px solid var(--rule);
 }
 
 /* 3. Research Experience — Slate / Accent Teal Background */
