@@ -235,6 +235,22 @@ main {
   }
   .badge-row img { display: block; }
   .badge-orcid img { border: 1px solid #1F1F15; border-radius: 2px; }
+
+/* Research section added */
+.research-box {
+  background-color: #e8f5e9; /* Soft light green background */
+  border-left: 5px solid #2e7d32; /* Dark green accent border */
+  padding: 20px;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.research-box h2 {
+  margin-top: 0;
+  color: #1b5e20;
+}
 /* --------------------------------------------------------------------------
    7. News list — dated rail
    The date sits in its own mono column so the list scans as a timeline.
