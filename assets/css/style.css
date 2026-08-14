@@ -465,14 +465,14 @@ main {
 
 /* 1. News Header — Dark Red Background */
 .header-news {
-  background-color: var(--paper-sunk);
+  background-color: var(--accent);
   color: #000047;
   border: 1px solid var(--rule);
 }
 
 /* 2. Selected Publications — Dark Blue Background */
 .header-pub {
-  background-color: var(--paper-sunk);
+  background-color: var(--accent);
   color: #00468B;
   /* border: 1px solid var(--rule); */
 }
