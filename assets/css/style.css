@@ -23,7 +23,8 @@
   --font-mono:    "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
 
   /* Scale */
-  --measure: 80rem;   /* max text column width */
+  --measure: 64rem;   /* max text column width */
+  --gutter: clamp(1rem, 4vw, 3rem);   /* 16px on phones, up to 48px */
   --gap:     1.5rem;
   --radius:  4px;
 }
