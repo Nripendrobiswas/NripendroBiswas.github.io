@@ -128,15 +128,15 @@ main {
 }
 
 /* Every top-level section is separated by a hairline, not extra whitespace. */
-.section { padding-block: 2.25rem 0; 
-           background-color: #e8f5e9; /* Soft light green background */
-           border-left: 5px solid #2e7d32; /* Dark green accent border */
-           width: 100%;
-           box-sizing: border-box}
+.section { padding-block: 2.25rem 0; }
 .section + .section { border-top: 1px solid var(--rule); }
 
 .section > h2 {
-  font-family: var(--font-display);
+   background-color: #e8f5e9; /* Soft light green background */
+   border-left: 5px solid #2e7d32; /* Dark green accent border */
+   width: 100%;
+   box-sizing: border-box;
+   
   font-size: 1.35rem;
   font-weight: 600;
   letter-spacing: -0.01em;
