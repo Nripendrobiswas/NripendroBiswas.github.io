@@ -470,8 +470,9 @@ main {
    7. News list — bulleted & scrollable (Site-Aligned)
    -------------------------------------------------------------------------- */
 .news-scroll-container {
-  max-height: 220px;
-  overflow-y: auto;
+  max-height: 220px !important; /* Fixed height is required for overflow scroll */
+  height: 220px;               /* Fallback height */
+  overflow-y: scroll !important; /* Forces vertical scrollbar when needed */
   padding-right: 0.75rem;
   margin-top: 0.75rem;
 }
