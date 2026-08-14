@@ -225,6 +225,16 @@ main {
 }
 .badges a:hover { border-color: var(--accent); }
 
+
+/* Profile badge row updated */
+  .badge-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+  }
+  .badge-row img { display: block; }
+  .badge-orcid img { border: 1px solid #1F1F15; border-radius: 2px; }
 /* --------------------------------------------------------------------------
    7. News list — dated rail
    The date sits in its own mono column so the list scans as a timeline.
