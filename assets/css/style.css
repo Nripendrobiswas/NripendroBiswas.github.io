@@ -511,13 +511,13 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1.1rem;
-  padding: 0.05rem 0.6rem;
+  padding: 0.1rem 0.6rem;
 }
 
 /* The colored text box around each field name */
 .interest-tag {
   display: inline-block;
-  background-color: var(--paper-sunk);  /* Soft tint matching your palette */
+  background-color: var(--paper);  /* Soft tint matching your palette */
   color: #01231c;                 /* Deep teal text color */
   border: 1px solid var(--accent);
   font-weight: 600;
