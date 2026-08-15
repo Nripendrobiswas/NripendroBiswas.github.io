@@ -20,6 +20,7 @@
   --Col-violet:   #301461;
   --Cream-Violet: #904C88;
   --Skill-Violet: #B8B8FF;
+  --Res-Interest: #023020;
 
   /* Type */
   --font-display: "Spectral", Georgia, "Times New Roman", serif;
@@ -495,6 +496,12 @@ main {
   color: #ffffff; /*var(--ink) */
   border: 1px solid var(--rule);
 }
+/* 5. Research interest — Sunk Paper Background with Dark Text */
+.header-interest {
+  background-color: var(--Res-Interest);
+  color: #ffffff; /*var(--ink) */
+  border: 1px solid var(--rule);
+}
 
 /* --------------------------------------------------------------------------
    Research Interests — Boxed Tag Labels
@@ -510,9 +517,9 @@ main {
 .interest-tag {
   display: inline-block;
   background-color: var(--accent-soft);  /* Soft tint matching your palette */
-  color: var(--accent);                 /* Deep teal text color */
+  color: #300902;                 /* Deep teal text color */
   border: 1px solid var(--accent);
-  padding: 0.2rem 0.6rem;
+  padding: 0.1rem 0.6rem;
   font-weight: 600;
   font-size: 0.88rem;
   border-radius: var(--radius);
