@@ -486,7 +486,7 @@ main {
 }
 /* Specific top margin override for Selected Publications only */
 #selected-publications {
-  margin-top: 0.1rem; /* Adjust this value (e.g., 0rem, 0.25rem, 0.5rem) to set the exact gap */
+  margin-top: 0.25rem; /* Adjust this value (e.g., 0rem, 0.25rem, 0.5rem) to set the exact gap */
 }
 
 /* 3. Research Experience — Slate / Accent Teal Background */
@@ -546,7 +546,7 @@ main {
 .pub-stats-container {
   clear: both;                        /* Prevents floating elements from overlapping */
   margin-top: 1.5rem;                /* Creates clear space above the box */
-  margin-bottom: 0.01rem;             /* Creates clear space below the box */
+  margin-bottom: 0rem;             /* Creates clear space below the box */
   border: 1px solid #660000;
   border-radius: 6px;
   padding: 0.75rem;
