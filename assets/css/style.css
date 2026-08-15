@@ -484,6 +484,10 @@ main {
   color: #ffffff;
   border: 1px solid var(--rule);
 }
+/* Specific top margin override for Selected Publications only */
+#selected-publications {
+  margin-top: 0.1rem; /* Adjust this value (e.g., 0rem, 0.25rem, 0.5rem) to set the exact gap */
+}
 
 /* 3. Research Experience — Slate / Accent Teal Background */
 .header-exp {
