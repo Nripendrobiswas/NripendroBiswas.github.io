@@ -478,7 +478,7 @@ main {
 
 /* 2. Selected Publications — Dark Blue Background */
 .header-pub {
-  margin-top: 0.25rem;
+  margin-top: 0rem;
   padding-top: 0;
   background-color: var(--Col-violet);
   color: #ffffff;
