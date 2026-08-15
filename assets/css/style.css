@@ -542,7 +542,7 @@ main {
 .pub-stats-container {
   clear: both;                        /* Prevents floating elements from overlapping */
   margin-top: 1.75rem;                /* Creates clear space above the box */
-  margin-bottom: 0.5rem;             /* Creates clear space below the box */
+  margin-bottom: 0.1rem;             /* Creates clear space below the box */
   border: 1px solid #660000;
   border-radius: 6px;
   padding: 0.75rem;
