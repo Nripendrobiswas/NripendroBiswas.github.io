@@ -535,6 +535,69 @@ main {
 }
 
 /* --------------------------------------------------------------------------
+   Publication Stats Box
+   -------------------------------------------------------------------------- */
+.pub-stats-container {
+  border: 1px solid #660000;          /* Dark Maroon border */
+  border-radius: 6px;
+  padding: 0.65rem;
+  background-color: #fffdf9;          /* Faint warm cream background */
+  font-family: var(--font-display);   /* Serif font matching the image */
+  margin-bottom: 2rem;                /* Spacing before the next section */
+  color: var(--ink);
+}
+
+.pub-stats-header {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.pub-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 0.5rem;
+}
+
+.pub-stats-box {
+  border: 1px solid #660000;
+  border-radius: 6px;
+  padding: 0.65rem;
+}
+
+.pub-stats-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
+.pub-stats-title u {
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+
+.pub-stats-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+/* The dark maroon tag pills */
+.pub-pill {
+  background-color: #660000;
+  color: #ffffff;
+  font-size: 0.82rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  line-height: 1.3;
+}
+
+/* Slightly brighter red for 'Spotlight' or 'Transactions' to match image */
+.pub-pill.highlight {
+  background-color: #a80000; 
+}
+
+/* --------------------------------------------------------------------------
    13. Footer
    -------------------------------------------------------------------------- */
 .site-footer {
