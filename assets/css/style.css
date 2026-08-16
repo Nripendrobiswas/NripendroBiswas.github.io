@@ -363,9 +363,9 @@ main {
   font-weight: 600;
   padding: 0.15rem 0.5rem;
   border-radius: var(--radius);
-  background-color: var(--accent-soft);
-  color: var(--accent);
-  border: 1px solid var(--accent);
+  background-color: var(--Cream-Violet);
+  color: #ffffff;
+  border: 1px solid var(--Dark-red);
   line-height: 1.2;
 }
 
