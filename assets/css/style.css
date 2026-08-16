@@ -355,7 +355,7 @@ main {
 }
 
 /* Field tag box on the right */
-.pub__tag {
+.pub__tag_TSF {
   display: inline-block;
   white-space: nowrap;
   font-family: var(--font-mono);
@@ -368,6 +368,33 @@ main {
   border: 1px solid var(--Dark-red);
   line-height: 1.2;
 }
+.pub__tag_ML {
+  display: inline-block;
+  white-space: nowrap;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius);
+  background-color: var(--Res-Interest);
+  color: #ffffff;
+  border: 1px solid var(--Dark-red);
+  line-height: 1.2;
+}
+.pub__tag_PSC {
+  display: inline-block;
+  white-space: nowrap;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius);
+  background-color: var(--Dark-red);
+  color: #ffffff;
+  border: 1px solid var(--Dark-red);
+  line-height: 1.2;
+}
+
 
 
 /* --------------------------------------------------------------------------
